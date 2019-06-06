@@ -1,18 +1,22 @@
 Stellate Ganglion
 =================
 
-.. |zoom-in| image:: /_images/flatmap_zoomIN.png
-               :width: 2 em
+.. |zoom-in| raw:: html
 
-.. |zoom-out| image:: /_images/flatmap_zoomOUT.png
-               :width: 2 em
+ <img src="./_images/flatmap_zoomIN.png" height="30px">
+    
+.. |zoom-out| raw:: html
+
+ <img src="./_images/flatmap_zoomOUT.png" height="30px">
 			   
-.. |resize| image:: /_images/flatmap_resize.png
-               :width: 2 em
+.. |resize| raw:: html
+
+ <img src="./_images/flatmap_resize.png" height="30px">
 			   
-.. |organs| image:: /_images/flatmap_organs.png
-               :width: 2 em
-			   
+.. |organs| raw:: html
+
+ <img src="./_images/flatmap_organs.png" height="30px">
+				   
 .. contents:: Contents: 
    :local:
    :depth: 2
