@@ -1,6 +1,6 @@
 # MAPcore Documentation
 
-Documentation for the MAPcore Demonstrations of the NIH SPARC program.
+Documentation for the MAPcore aspects of the SPARC Data Portal (https://data.sparc.science).
 
 ## Sphinx Installation 
 On Linux or MacOS, you should open the terminal and run the following command.
