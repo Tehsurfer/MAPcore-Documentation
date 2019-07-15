@@ -3,16 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-MAP visualisation and interaction on the SPARC Data Portal
-==========================================================
+MAPcore Documentation
+=====================
 
-Here we provide instructions on how to use the various MAP visualization and interaction tools available on the `SPARC Data Portal <https://data.sparc.science>`_ as well as detailed instructions guiding user's of the portal through specific exemplar "use cases". As the portal is continually evolving to meet the needs of the SPARC community, the documentation contained here will similarly develop over time.
+The MAPcore documentation teaches you how to use the web platform being developed by the Stimulating Peripheral Activity to Relieve Conditions(SPARC)'s Map Synthesis Core(MAPcore).
 
 
 .. toctree::
    :maxdepth: 1
    :caption: Table of Contents:
 
+   ScaffoldFiducialMarker
    StellateGanglion
    PigHeart
    MouseHeart
@@ -23,10 +24,6 @@ Here we provide instructions on how to use the various MAP visualization and int
    RatSCG
    MouseColon
    UC10
-   ScaffoldFiducialMarker
-   FlatmapViewer
-   DataPlottingViewer
-
 ..   InteractiveGraphicsControls
 
 
