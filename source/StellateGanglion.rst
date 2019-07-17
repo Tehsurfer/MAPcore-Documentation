@@ -52,6 +52,8 @@ tab.
    :width: 95%
    :align: center
 
+**Step 4**. You can select different sweep or channel data for that cell in this tab.
+
 .. figure:: _images/sg_snip5.png
    :figwidth: 80%
    :width: 95%
