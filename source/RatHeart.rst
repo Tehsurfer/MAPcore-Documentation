@@ -1,10 +1,7 @@
 
-Rat Heart
-=========
-.. todo::
-		Title for this usecase.
-			   
-.. contents:: Contents: 
+Mapping cellular gene expression in the rat heart: from image to scaffold
+=========================================================================
+.. contents:: Contents:
    :local:
    :depth: 2
    :backlinks: top
@@ -12,7 +9,24 @@ Rat Heart
 Overview
 ********
 
-Rat heart geometric 3Scan data (both ventricles and both atria) from the Schwaber/Vadigepalli/Cheng group is shown fitted with a 3D rat heart scaffold. The locations of a cluster of 151 ICN cell samples that have been lifted for RNAseq analysis (molecular cell body transcript data) from a region of the left atrium, from a different animal, are indicated on the 3D scaffold. Clicking on one of these tissue locations displays the RNA message level for the 154 genes examined. To visualize the spatial distribution of the RNA message, the 151 samples have been fitted with a continuous field description using scaffold nodal parameters. Any one of the 154 genes can be selected to show the spatial variation of that transcript as a heat map. Rat heart neural pathway data showing the efferent connectome linking ICN cells in the left atrium and the SA node cells on the right atrium will be visualised in the next iteration of this use-case.  
+Rat heart geometric 3Scan (www.3scan.com) data for both ventricles and both atria from the Schwaber/Vadigepalli/Cheng
+group has been fitted with a 3D rat heart scaffold. The locations of a cluster of 151 ICN cell samples that have been
+lifted for RNA-Seq analysis (molecular cell body transcript data) from a region of the left atrium, from a different animal,
+are indicated on the 3D scaffold. Clicking on one of these tissue locations displays the RNA message level for the 154
+genes examined. To visualize the spatial distribution of the RNA message, the 151 samples have been fitted with a
+continuous field description using scaffold nodal parameters. Any one of the 154 genes can be selected to show the
+spatial variation of that transcript as a heat map. Rat heart neural pathway data showing the efferent connectome
+linking ICN cells in the left atrium and the SA node cells on the right atrium will be visualised in the next iteration
+of this use-case. Note that the treatment process needed to extract the cells for RNA-Seq analysis left that rat heart
+in a very distorted state which was therefore not fitted with a scaffold. Instead corresponding locations of the ICN
+cells in the much less distorted 3Scan-processed heart were identified by eye and the cell information was transferred
+to that heart.
+
+.. figure:: _images/use_case4_workflow_white.png
+   :figwidth: 95%
+   :width: 90%
+   :align: center
+
 
 .. todo::
 	This document guides a user of the SPARC Data Portal through the steps required to .......

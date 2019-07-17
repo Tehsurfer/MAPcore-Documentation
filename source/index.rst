@@ -4,8 +4,7 @@
    contain the root `toctree` directive.
 
 MAP visualisation and interaction on the SPARC Data Portal
-==========================================================
-
+=================================================================
 Here we provide instructions on how to use the various MAP visualization and interaction tools available on the `SPARC Data Portal <https://data.sparc.science>`_ as well as detailed instructions guiding user's of the portal through specific exemplar "use cases". As the portal is continually evolving to meet the needs of the SPARC community, the documentation contained here will similarly develop over time.
 
 
