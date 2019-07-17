@@ -1,9 +1,7 @@
 
-Mouse Heart
-===========
-.. todo::
-		Title for this usecase.
-			   
+Mapping the mouse heart neurites: from image to scaffold
+==================================================================
+
 .. contents:: Contents: 
    :local:
    :depth: 2
@@ -12,7 +10,18 @@ Mouse Heart
 Overview
 ********
    
-Mouse heart immunohistochemical mapping of neural pathways in cleared heart stained with PGP9.5 (glycoprotein surface axonal antibody labelling) from the Shivkumar/Pradeep group is displayed in a 3D mouse heart scaffold that has been fitted to the segmented heart surface data from sham heart 44. 
+Mouse heart immunohistochemical mapping of neural pathways in cleared heart (sham heart 4) stained with PGP9.5
+(glycoprotein surface axonal antibody labelling) from the Shivkumar/Pradeep group is displayed in a 3D mouse heart
+scaffold that has been fitted to the segmented heart surface data from Sham Heart 44, which provides a more extensive
+geometric dataset. Future experiments are likely to provide much better quality mouse data for both the heart's anatomy
+and its embedded neurons. Figure 1 illustrates an overview of the workflow.
+
+
+.. figure:: _images/use_case3_workflow_white.png
+   :figwidth: 95%
+   :width: 90%
+   :align: center
+
 
 .. todo::
 	This document guides a user of the SPARC Data Portal through the steps required to .......
