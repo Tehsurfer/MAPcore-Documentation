@@ -1,23 +1,6 @@
 
-Pig Heart
-=========
-Page heading will be changed later. This is just for reference.
-
-.. note:: 
-
-   **This is a generic template for all the MAPcore usercases for ISAN 2019. Please add or modify any information relating to your work.**
-
-.. |zoom-in| image:: /_images/flatmap_zoomIN.png
-               :width: 2 em
-
-.. |zoom-out| image:: /_images/flatmap_zoomOUT.png
-               :width: 2 em
-			   
-.. |resize| image:: /_images/flatmap_resize.png
-               :width: 2 em
-			   
-.. |organs| image:: /_images/flatmap_organs.png
-               :width: 2 em
+Mapping Cardiac Electromechanics in the Pig
+===========================================
 			   
 .. contents:: Contents: 
    :local:
@@ -26,87 +9,63 @@ Page heading will be changed later. This is just for reference.
    
 Overview
 ********
+	
+Pig heart electromechanical data from the Shivkumar/Ardell group is displayed on a 3D pig heart scaffold. The deforming geometry of the pig heart is fitted through the cardiac cycle with the pig heart scaffold. Electrophysiological measurements from two 64-electrode patches, one on the left ventricle (LV) and one on the right ventricle (RV), are fitted as time-varying fields via scaffold parameters and shown on the LV and RV epicardial surfaces, respectively, of the beating heart model. *Note* that these electromechanical data, fitted to the 3D scaffold, are from the same pig heart and include both physiological normal contracting heart beats and the whole heart response to stellate stimulation. This use-case demonstrates the use of the scaffold to merge two types of data set (one mechanical and one electrophysiological) and begins to illustrate the connection between stimulation of the peripheral nervous system and the response at the whole heart level.
 
-This document describes how to ...........
+This document guides a user of the SPARC Data Portal through the steps required to discover some data looking at autonomic control of the heart.
 
-.. add the demo url 
-The demonstration for this module is available at URL (provide the link here).
+.. todo::
+    add link to final portal URL that takes user straight to this dataset display.
 
 Step-by-step instructions 
 *************************
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
-Explain the steps to be followed by the end user on the web interface. 
+.. todo:: check these steps and update screen shots
 
-#. Step 1 ....
+**Step 1:** Allow a few seconds of time for models to load.
 
-Add screenshot
 
-.. .. figure:: _images/snip
-   :figwidth: 61%
-   :width: 51%
+.. figure:: _images/ph_loading.png
+   :figwidth: 95%
+   :width: 90%
    :align: center
    
-#. Step 2 ....
+**Step 2:** Select a *node* to open it's ECG data in a seperate viewer i.e. the Electrode Data Viewer.
 
-Add screenshot 
+.. figure:: _images/ph_node.png
+   :figwidth: 95%
+   :width: 90%
+   :align: center
 
+.. figure:: _images/ph_ecg.png
+   :figwidth: 95%
+   :width: 90%
+   :align: center
+   
+**Step 3:** Navigate through the video with the play button and slider.
 
+.. figure:: _images/ph_slider_1.png
+   :figwidth: 95%
+   :width: 90%
+   :align: center
 
-How to work with this interface?
-********************************
+Working with the interface
+**************************
+This section explains how to use more specific features of the interface.
 
-This section explains.............
-
-Flatmaps Pane
-^^^^^^^^^^^^^
-
-The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system. This pane provides the below functionalities:
-
-1. |organs| icon provides an option to display or hide a selected organs systems.
-
-2. |zoom-in| icon lets you zoom-in  and |zoom-out| icon zoom-out the flatmap.
-
-3. |resize| icon to resize this flatmap pane.
-
-more info............
-
-
-Organs Viewer Pane
+.. todo::
+      Highlight features/capabilities that are particular to this use-case.
+	
+:ref:`Flatmap-Viewer`
+^^^^^^^^^^^^^^^^^^^^^
+The :ref:`Flatmap-Viewer` represents a high-level view of overall connectivity of the autonomic nervous system.
+	
+:ref:`Scaffold-Viewer`
+^^^^^^^^^^^^^^^^^^^^^^
+:ref:`Scaffold-Viewer` is used to view the anatomical organ scaffold of the specific organ selected on the Flatmap.
+	
+:ref:`Data-Viewer`
 ^^^^^^^^^^^^^^^^^^
-
-Organs Viewer is used to view the anatomical organ scaffold of the specific organ selected on the Flatmaps. 
-
-	
-	* The :guilabel:`Open Controls` button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the stellate.
-	
-			* :guilabel:`Background` control provides an option to change the background color. 
-	
-			* :guilabel:`Reset View` control restore the organ scaffold to the default state.
-			
-			* :guilabel:`View All` control ensures the entire organ scaffold is visible.
-			
-			  and so on ................
-		
-			
-	* The :guilabel:`Close Controls` button closes the expanded controls panel.
-	
-.. note::
-
-   The organ scaffold visualisation can be manipulated by different :doc:`InteractiveGraphicsControls`. 
-	
-Chart Pane
-^^^^^^^^^^
-
-This pane exhibit an electrode array recording electrical data.
-
-more info..........
-
-
-
-
-
-
-
-
+This viewer is used to view the *Electrocardiograph* data recorded with the experiment video. Refer the section :ref:`Data-Viewer`.

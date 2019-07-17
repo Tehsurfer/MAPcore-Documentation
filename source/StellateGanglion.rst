@@ -1,18 +1,9 @@
-Stellate Ganglion
-=================
+Cell Body Segmentation and Electrophysiology Data: Stellate Ganglion
+====================================================================
 
-.. |zoom-in| image:: /_images/flatmap_zoomIN.png
-               :width: 2 em
-
-.. |zoom-out| image:: /_images/flatmap_zoomOUT.png
-               :width: 2 em
-			   
-.. |resize| image:: /_images/flatmap_resize.png
-               :width: 2 em
-			   
-.. |organs| image:: /_images/flatmap_organs.png
-               :width: 2 em
-			   
+.. |open-control| image:: /_images/open_control.png
+                      :width: 2 em			
+		
 .. contents:: Contents: 
    :local:
    :depth: 2
@@ -20,12 +11,18 @@ Stellate Ganglion
    
 Overview
 ********
-   
-This document describes how to use the 'Stellate Ganglion' visualization. The demonstration for this module is available at https://mapcore-demo.org/current/data-portal/map/. 
 
+Mouse stellate ganglion neuronal cell shape data from the Shivkumar/Tompkins group are displayed in a 3D stellate scaffold. 15 neurons, including their cell bodies, axons and dendrites, are displayed on five cross-sections of the stellate with the high resolution image displayed as a texture map. Electrophysiological data from these cells can be visualized by clicking on the cell. *Note* that the scaffold in this example is a geometrically simple shape designed to register the images in the appropriate anatomical location. The shape of the scaffold will be improved once more data are available to define the stellate boundaries.   
+
+This document guides a user of the SPARC Data Portal through the steps required to discover a collection of segmented cell bodies from the stellate ganglion which have been mapped to a common coordinate framework for visualization purposes. The user is able to discover any electrophysiology data that has been recorded for each of the cell bodies.
+
+.. todo::
+    add link to final portal URL that takes user straight to this dataset display.
 
 Step-by-step instructions 
 *************************
+
+.. todo:: check these steps and update screen shots
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
@@ -55,58 +52,22 @@ Follow these step-by-step instructions to familiarise yourself with the flow of 
    :width: 95%
    :align: center
 
-How to work with this interface?
-********************************
+Working with the interface
+**************************
+This section explains how to use more specific features of the interface.
 
-This section explains how to work with different panes within this interface.
+.. todo::
+      Highlight features/capabilities that are particular to this use-case.
 
-Flatmaps Pane
-^^^^^^^^^^^^^
-
-The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system. This pane provides the below functionalities:
-
-1. |organs| icon provides an option to display or hide a selected organs systems.
-
-2. |zoom-in| icon lets you zoom-in  and |zoom-out| icon zoom-out the flatmap.
-
-3. |resize| icon to resize this flatmap pane.
-
-
-
-Organs Viewer Pane
+:ref:`Flatmap-Viewer`
+^^^^^^^^^^^^^^^^^^^^^
+The :ref:`Flatmap-Viewer` represents a high-level view of overall connectivity of the autonomic nervous system.
+	
+:ref:`Scaffold-Viewer`
+^^^^^^^^^^^^^^^^^^^^^^
+:ref:`Scaffold-Viewer` is used to view the anatomical organ scaffold of the specific organ selected on the Flatmap.
+	
+:ref:`Data-Viewer`
 ^^^^^^^^^^^^^^^^^^
-
-Organs Viewer is used to view the anatomical organ scaffold of the specific organ selected on the Flatmaps. 
-
-	
-	* The :guilabel:`Open Controls` button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the stellate.
-	
-			* :guilabel:`Background` control provides an option to change the background color. 
-	
-			* :guilabel:`Reset View` control restore the organ scaffold to the default state.
-			
-			* :guilabel:`View All` control ensures the entire organ scaffold is visible.
-			
-			* :guilabel:`Visibilty Control` displays various sample data points on the Stellate. Clicking or hovering over the different data points shows the selected sample data point; unchecking the data point will cause the data point to be hidden in the current scaffold visualisation of the Stellate. 
-		
-			
-	* The :guilabel:`Close Controls` button closes the expanded controls panel.
-	
-.. note::
-
-   The organ scaffold visualisation can be manipulated by different :doc:`InteractiveGraphicsControls`. 
-	
-Chart Pane
-^^^^^^^^^^
-
-This pane exhibit an electrode array recording electrical data.
-
-
-
-
-
-
-
-
-
+This viewer is used to view the *Electrocardiograph* data recorded with the experiment video. Refer the section :ref:`Data-Viewer`.
 
