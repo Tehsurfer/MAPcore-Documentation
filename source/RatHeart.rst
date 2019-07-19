@@ -1,39 +1,43 @@
 
-Rat Heart
-=========
-Page heading will be changed later. This is just for reference.
-
-.. note:: 
-
-   **This is a generic template for all the MAPcore usercases for ISAN 2019. Please add or modify any information relating to your work.**
-
-.. |zoom-in| image:: /_images/flatmap_zoomIN.png
-               :width: 2 em
-
-.. |zoom-out| image:: /_images/flatmap_zoomOUT.png
-               :width: 2 em
-			   
-.. |resize| image:: /_images/flatmap_resize.png
-               :width: 2 em
-			   
-.. |organs| image:: /_images/flatmap_organs.png
-               :width: 2 em
-			   
-.. contents:: Contents: 
+Mapping cellular gene expression in the rat heart: from image to scaffold
+=========================================================================
+.. contents:: Contents:
    :local:
    :depth: 2
    :backlinks: top
    
 Overview
 ********
-   
-This document describes how to ...........
 
-.. add the demo url 
-The demonstration for this module is available at URL (provide the link here).
+Rat heart geometric 3Scan (www.3scan.com) data for both ventricles and both atria from the Schwaber/Vadigepalli/Cheng
+group has been fitted with a 3D rat heart scaffold. The locations of a cluster of 151 ICN cell samples that have been
+lifted for RNA-Seq analysis (molecular cell body transcript data) from a region of the left atrium, from a different animal,
+are indicated on the 3D scaffold. Clicking on one of these tissue locations displays the RNA message level for the 154
+genes examined. To visualize the spatial distribution of the RNA message, the 151 samples have been fitted with a
+continuous field description using scaffold nodal parameters. Any one of the 154 genes can be selected to show the
+spatial variation of that transcript as a heat map. Rat heart neural pathway data showing the efferent connectome
+linking ICN cells in the left atrium and the SA node cells on the right atrium will be visualised in the next iteration
+of this use-case. Note that the treatment process needed to extract the cells for RNA-Seq analysis left that rat heart
+in a very distorted state which was therefore not fitted with a scaffold. Instead corresponding locations of the ICN
+cells in the much less distorted 3Scan-processed heart were identified by eye and the cell information was transferred
+to that heart.
+
+.. figure:: _images/use_case4_workflow_white.png
+   :figwidth: 95%
+   :width: 90%
+   :align: center
+
+
+.. todo::
+	This document guides a user of the SPARC Data Portal through the steps required to .......
+
+.. todo::
+    add link to final portal URL that takes user straight to this dataset display.
 
 Step-by-step instructions 
 *************************
+.. todo:: 
+		Write steps + screenshots
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
@@ -52,55 +56,30 @@ Add screenshot
 
 Add screenshot 
 
+Working with the interface
+**************************
+This section explains how to use more specific features of the interface.
 
-
-How to work with this interface?
-********************************
-
-This section explains.............
-
-Flatmaps Pane
-^^^^^^^^^^^^^
-
-The flatmaps represents a high-level view of overall connectivity of the autonomic nervous system. This pane provides the below functionalities:
-
-1. |organs| icon provides an option to display or hide a selected organs systems.
-
-2. |zoom-in| icon lets you zoom-in  and |zoom-out| icon zoom-out the flatmap.
-
-3. |resize| icon to resize this flatmap pane.
-
-more info............
-
-Organs Viewer Pane
+.. todo::
+      Highlight features/capabilities that are particular to this use-case.
+	   
+:ref:`Flatmap-Viewer`
+^^^^^^^^^^^^^^^^^^^^^
+The :ref:`Flatmap-Viewer` represents a high-level view of overall connectivity of the autonomic nervous system.
+	
+:ref:`Scaffold-Viewer`
+^^^^^^^^^^^^^^^^^^^^^^
+:ref:`Scaffold-Viewer` is used to view the anatomical organ scaffold of the specific organ selected on the Flatmap.
+	
+:ref:`Data-Viewer`
 ^^^^^^^^^^^^^^^^^^
+This viewer is used to view the *Electrocardiograph* data recorded with the experiment video. Refer the section :ref:`Data-Viewer`.
 
-Organs Viewer is used to view the anatomical organ scaffold of the specific organ selected on the Flatmaps. 
 
-	
-	* The :guilabel:`Open Controls` button at the top-left corner of this demonstration elaborates different controls which help to edit the visualisation and configuration of the stellate.
-	
-			* :guilabel:`Background` control provides an option to change the background color. 
-	
-			* :guilabel:`Reset View` control restore the organ scaffold to the default state.
-			
-			* :guilabel:`View All` control ensures the entire organ scaffold is visible.
-			
-			  and so on ................
-		
-			
-	* The :guilabel:`Close Controls` button closes the expanded controls panel.
-	
-.. note::
 
-   The organ scaffold visualisation can be manipulated by different :doc:`InteractiveGraphicsControls`. 
-	
-Chart Pane
-^^^^^^^^^^
 
-This pane exhibit an electrode array recording electrical data.
 
-more info..........
+
 
 
 
