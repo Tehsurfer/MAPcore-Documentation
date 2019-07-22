@@ -38,7 +38,7 @@ scaffold is a rectangular cube with slots to contain the stellate image stacks u
 the scaffold elements. Segmented cells (Soma) with associated axon and dendrites have been mapped and embedded in
 the image-scaffold structure. Each cell will have electro-physiological data properly registered.
 
-.. figure:: _images/stellate_scaffold_image_02.png
+.. figure:: _images/stellate_scaffold_image01.png
    :figwidth: 80%
    :width: 95%
    :align: center
