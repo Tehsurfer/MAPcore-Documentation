@@ -1,5 +1,4 @@
-
-Mapping cellular gene expression in the rat heart: from image to scaffold
+Mapping Cellular Gene Expression in the Rat Heart from Image to Scaffold
 =========================================================================
 .. contents:: Contents:
    :local:

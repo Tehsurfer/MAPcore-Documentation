@@ -1,6 +1,5 @@
-
-Mapping the mouse heart neurites: from image to scaffold
-==================================================================
+Mapping the Mouse Heart Neurites from Image to Scaffold
+========================================================
 
 .. contents:: Contents: 
    :local:
