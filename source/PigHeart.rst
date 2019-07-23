@@ -1,4 +1,3 @@
-
 Mapping Cardiac Electromechanics in the Pig
 ===========================================
 			   
