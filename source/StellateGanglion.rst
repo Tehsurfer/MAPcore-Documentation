@@ -26,20 +26,20 @@ Step-by-step instructions
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
-**Step 1**. Click on the **Stellate Ganglion** on the Flatmap tab.
+**Step 1**. Click on the **Stellate Ganglion** on the Flatmap.
 
 .. figure:: _images/sg_snip11.png
-   :figwidth: 55%
-   :width: 90%
+   :figwidth: 95%
+   :width: 95%
    :align: center
    
-**Step 2**. A new tab called Organ Viewer will open to display the anatomical organ scaffold of the stellate. The current
+**Step 2**. A new tab called Scaffold Viewer will open to display the anatomical organ scaffold of the stellate. The current
 scaffold is a rectangular cube with slots to contain the stellate image stacks using texture mapping techniques within
 the scaffold elements. Segmented cells (Soma) with associated axon and dendrites have been mapped and embedded in
 the image-scaffold structure. Each cell will have electro-physiological data properly registered.
 
 .. figure:: _images/stellate_scaffold_image01.png
-   :figwidth: 80%
+   :figwidth: 95%
    :width: 95%
    :align: center
 
@@ -48,14 +48,14 @@ is illustrated within a new tab called Data Viewer. You can select different swe
 tab.
 
 .. figure:: _images/stellate_scaffold_image_02.png
-   :figwidth: 80%
+   :figwidth: 95%
    :width: 95%
    :align: center
 
 **Step 4**. You can select different sweep or channel data for that cell in this tab.
 
 .. figure:: _images/sg_snip5.png
-   :figwidth: 80%
+   :figwidth: 95%
    :width: 95%
    :align: center
 
