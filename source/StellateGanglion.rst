@@ -28,7 +28,7 @@ Follow these step-by-step instructions to familiarise yourself with the flow of 
 
 **Step 1**. Click on the **Stellate Ganglion** on the Flatmap.
 
-.. figure:: _images/sg_snip11.png
+.. figure:: _images/sg_flatmap.png
    :figwidth: 95%
    :width: 95%
    :align: center
