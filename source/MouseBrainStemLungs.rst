@@ -19,7 +19,7 @@ A 3D scaffold of the mouse thoracic cavity created using segmentation of longitu
    :width: 91%
    :align: center
    
-Here is an **introductory video** which explains how an anatomically based 3D thoracic shape of the lungs are generated. 
+Below is an **introductory video** which explains how an anatomically based 3D thoracic shape of the lungs are generated. 
 
 .. raw:: html
 

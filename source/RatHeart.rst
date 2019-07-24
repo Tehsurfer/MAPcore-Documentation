@@ -26,12 +26,6 @@ to that heart.
    :width: 90%
    :align: center
 
-Here is an **introductory video** which explains the mapping of the cellular gene expression in the Rat Heart from image to scaffold.
-
-.. raw:: html
-
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/6Lt1Wnb6684" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 .. todo::
     add link to final portal URL that takes user straight to this dataset display.
