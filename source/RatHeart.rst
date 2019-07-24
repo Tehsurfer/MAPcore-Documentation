@@ -124,26 +124,6 @@ In future, additional visualisation capabilities such as heatmap and clustering 
    :align: center
 
 
-Working with the interface
-**************************
-This section explains how to use more specific features of the interface.
-
-.. todo::
-      Highlight features/capabilities that are particular to this use-case.
-	   
-:ref:`Flatmap-Viewer`
-^^^^^^^^^^^^^^^^^^^^^
-The :ref:`Flatmap-Viewer` represents a high-level view of overall connectivity of the autonomic nervous system.
-	
-:ref:`Scaffold-Viewer`
-^^^^^^^^^^^^^^^^^^^^^^
-:ref:`Scaffold-Viewer` is used to view the anatomical organ scaffold of the specific organ selected on the Flatmap.
-	
-:ref:`Data-Viewer`
-^^^^^^^^^^^^^^^^^^
-This viewer is used to view the *Electrocardiograph* data recorded with the experiment video. Refer the section :ref:`Data-Viewer`.
-
-
 
 
 
