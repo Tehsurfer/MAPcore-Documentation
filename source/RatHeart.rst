@@ -1,5 +1,4 @@
-
-Mapping cellular gene expression in the rat heart: from image to scaffold
+Mapping Cellular Gene Expression in the Rat Heart from Image to Scaffold
 =========================================================================
 .. contents:: Contents:
    :local:
@@ -17,7 +16,7 @@ genes examined. To visualize the spatial distribution of the RNA message, the 15
 continuous field description using scaffold nodal parameters. Any one of the 154 genes can be selected to show the
 spatial variation of that transcript as a heat map. Rat heart neural pathway data showing the efferent connectome
 linking ICN cells in the left atrium and the SA node cells on the right atrium will be visualised in the next iteration
-of this use-case. Note that the treatment process needed to extract the cells for RNA-Seq analysis left that rat heart
+of this use-case. *Note* that the treatment process needed to extract the cells for RNA-Seq analysis left that rat heart
 in a very distorted state which was therefore not fitted with a scaffold. Instead corresponding locations of the ICN
 cells in the much less distorted 3Scan-processed heart were identified by eye and the cell information was transferred
 to that heart.
@@ -28,7 +27,8 @@ to that heart.
    :align: center
 
 
-Step-by-step instructions
+
+Step-by-step instructions 
 *************************
 
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.

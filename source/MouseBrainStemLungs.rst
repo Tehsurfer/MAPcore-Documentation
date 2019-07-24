@@ -1,9 +1,9 @@
 
-Mouse Brain Stem & Lungs
-========================
-.. todo::
-		Title for this usecase.
-			   
+Mapping Gene Expression in the Mouse Lungs from Images to Scaffold
+===================================================================		
+.. |open-control| image:: /_images/open_control.png
+                      :width: 2 em	
+					  
 .. contents:: Contents: 
    :local:
    :depth: 2
@@ -12,42 +12,66 @@ Mouse Brain Stem & Lungs
 Overview
 ********
 
-Data from Tom Taylor-Clark for mouse lungs. This use-case will be the first of many that link the organ systems with the brain stem (medulla, pons and midbrain).    
+A 3D scaffold of the mouse thoracic cavity created using segmentation of longitudinal microCT scans from the SIMBA VIA (Vision and Image Analysis) public database is visualized in the webGL window. The trachea and main bronchi are also shown as rings of segmented points. Confocal stained images from Taylor-Clark group for mouse lungs are embedded into the scaffold. The confocal images were obtained from the right middle lobe (RML). The scaffold was registered to ensure alignment with the airway branch visible on the confocal. This use-case will be the first of many that link the organ systems with the brain stem.
+
+.. figure:: _images/use_case5_lung.png
+   :figwidth: 100%
+   :width: 91%
+   :align: center
+   
+Below is an **introductory video** which explains how an anatomically based 3D thoracic shape of the lungs are generated. 
+
+.. raw:: html
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8FDcPuwWAQo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+
 
 .. todo::
-	This document guides a user of the SPARC Data Portal through the steps required to .......
+	provide demo link 
 
-.. todo::
-    add link to final portal URL that takes user straight to this dataset display.
 
 Step-by-step instructions 
 *************************
-.. todo:: 
-		Write steps + screenshots
-
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
-Explain the steps to be followed by the end user on the web interface. 
+**Step 1.** Click on the **Lungs** on the flatmap to generate serach results for lungs.
 
-#. Step 1 ....
-
-Add screenshot
-
-.. .. figure:: _images/snip
-   :figwidth: 61%
-   :width: 51%
+.. figure:: _images/lungs_01.png
+   :figwidth: 95%
+   :width: 95%
    :align: center
    
-#. Step 2 ....
+**Step 2.** Select **Data for Mouse Lungs** from the search results. Click on scaffold icon. 
 
-Add screenshot 
+.. figure:: _images/lungs_02.png
+   :figwidth: 95%
+   :width: 95%
+   :align: center
+   
+**Step 3.** Click on the left and right lungs to highlight them in **green**.
+
+.. figure:: _images/lungs_03.png
+   :figwidth: 95%
+   :width: 95%
+   :align: center
+
+**Step 4.** Click on |open-control| icon to pop-up the drop-down menu.
+
+.. figure:: _images/lungs_04.png
+   :figwidth: 95%
+   :width: 95%
+   :align: center
+
+**Step 5.** Visibility can be turned ON or OFF for the items. 
+
+.. figure:: _images/lungs_05.png
+   :figwidth: 95%
+   :width: 95%
+   :align: center
 
 Working with the interface
 **************************
 This section explains how to use more specific features of the interface.
-
-.. todo::
-      Highlight features/capabilities that are particular to this use-case.
 	   
 :ref:`Flatmap-Viewer`
 ^^^^^^^^^^^^^^^^^^^^^
