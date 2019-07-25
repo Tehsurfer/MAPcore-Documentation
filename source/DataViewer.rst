@@ -60,7 +60,7 @@ Interactive Graphics Controls
 
 .. ..
 
-.. figure:: _images/plot_refine_result.jpg
+.. figure:: _images/plot_refine_result.png
    :figwidth: 95%
    :width: 90%
    :align: center
