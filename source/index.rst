@@ -21,11 +21,13 @@ Here we provide instructions on how to use the various MAP visualization and int
    RatSCG
    MouseColon
    UC10
-   ScaffoldFiducialMarker
    FlatmapViewer
    DataViewer
    ScaffoldViewer
 
-..   InteractiveGraphicsControls
+.. toctree::
+   :hidden:
+
+   InteractiveGraphicsControls
 
 
