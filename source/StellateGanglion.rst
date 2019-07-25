@@ -44,7 +44,7 @@ the image-scaffold structure. Each cell will have electro-physiological data pro
 **Step 3**. In the current version, you would need to select the green circle from the search result to visualise the
 electro-physiological data associated with the samples.
 
-.. figure:: _images/use_case_2/Slide3.PNG
+.. figure:: _images/use_case_2/Slide3.png
    :figwidth: 95%
    :width: 95%
    :align: center
