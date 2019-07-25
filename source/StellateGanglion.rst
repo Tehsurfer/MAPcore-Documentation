@@ -41,12 +41,14 @@ the image-scaffold structure. Each cell will have electro-physiological data pro
    :width: 95%
    :align: center
 
-**Step 3**. Click on a cell in a sample to visualise the electro-physiological data associated with the cell.
+**Step 3**. In the current version, you would need to select the green circle from the search result to visualise the
+electro-physiological data associated with the samples.
 
-.. figure:: _images/stellate_scaffold_image_02.png
+.. figure:: _images/use_case_2/Slide3.png
    :figwidth: 95%
    :width: 95%
    :align: center
+
 
 **Step 4**. The data is illustrated within a new tab called Data Viewer.
 
