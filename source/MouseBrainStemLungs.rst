@@ -19,7 +19,7 @@ A 3D scaffold of the mouse thoracic cavity created using segmentation of longitu
    :width: 91%
    :align: center
    
-Here is an **introductory video** which explains how an anatomically based 3D thoracic shape of the lungs are generated. 
+Below is an **introductory video** which explains how an anatomically based 3D thoracic shape of the lungs are generated. 
 
 .. raw:: html
 
@@ -34,7 +34,7 @@ Step-by-step instructions
 *************************
 Follow these step-by-step instructions to familiarise yourself with the flow of the web interface.
 
-**Step 1.** Click on the **Lungs** on the flatmap to generate serach results for lungs.
+**Step 1.** Click on the **Lungs** on the flatmap to generate search results for lungs.
 
 .. figure:: _images/lungs_01.png
    :figwidth: 95%

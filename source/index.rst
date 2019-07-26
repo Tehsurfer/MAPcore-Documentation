@@ -4,13 +4,12 @@
    contain the root `toctree` directive.
 
 MAP visualisation and interaction on the SPARC Data Portal
-=================================================================
-Here we provide instructions on how to use the various MAP visualization and interaction tools available on the `SPARC Data Portal <https://data.sparc.science>`_ as well as detailed instructions guiding user's of the portal through specific exemplar "use cases". As the portal is continually evolving to meet the needs of the SPARC community, the documentation contained here will similarly develop over time.
-
+==========================================================
+Here, we provide instructions on how to use the various MAP visualization and interaction tools available on the `SPARC Data Portal <https://data.sparc.science>`_, as well as detailed instructions guiding users of the portal through specific exemplar use cases.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Table of Contents:
+   :caption: Exemplary use cases:
 
    StellateGanglion
    PigHeart
@@ -18,15 +17,21 @@ Here we provide instructions on how to use the various MAP visualization and int
    RatHeart
    MouseBrainStemLungs
    RatStomach
-   RatBladder
    RatSCG
    MouseColon
    UC10
-   ScaffoldFiducialMarker
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User interface guides:
+
    FlatmapViewer
    DataViewer
    ScaffoldViewer
 
-..   InteractiveGraphicsControls
+.. toctree::
+   :hidden:
+
+   InteractiveGraphicsControls
 
 
